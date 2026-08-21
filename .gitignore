@@ -141,3 +141,22 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.env
+
+# Vector DB & Local Storage
+*.qdrant
+*.faiss
+data/*.json
+
+# Frontend / Node
+node_modules/
+dist/
+.ds_store
